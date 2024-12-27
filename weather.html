@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Погодная станция</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="./font/Golos-Text/Golos-Text_Medium.css" rel="stylesheet">
+</head>
+<body>
+    <div class="blocks">
+        <div class="block time">
+            <p class="time" id="time"></p>
+            <p class="data" id="date"></p>
+        </div>
+        <div class="blocks down">
+            <div class="weather next block" id="1">
+                <p class="weather day"></p>
+                <img src="icons/Облако.svg" alt="иконка">
+                <p class="weather celsius"></p>
+                <p class="status"></p>
+            </div>
+            <div class="weather next block" id="2">
+                <p class="weather day"></p>
+                <img src="icons/Облако.svg" alt="иконка">
+                <p class="weather celsius"></p>
+                <p class="status"></p>
+            </div>
+            <div class="weather next block" id="3">
+                <p class="weather day"></p>
+                <img src="icons/Облако.svg" alt="иконка">
+                <p class="weather celsius"></p>
+                <p class="status"></p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <a href="./index.html"><button>1</button></a>
+        <a href="./weather.html"><button>2</button></a>
+        <a href="./sun.html"><button>3</button></a>
+    </div>
+<script src="index.js"></script>
+<script src="weather.js"></script>
+</body>
+</html>

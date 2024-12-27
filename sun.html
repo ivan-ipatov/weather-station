@@ -13,16 +13,15 @@
             <p class="data" id="date"></p>
         </div>
         <div class="blocks down">
-            <div class="block weather">
-                <div class="weather temperature">
-                    <img alt="Облако" src="icons/Облако.svg">
-                    <p class="temperature celsius" id="temperature"></p>
-                </div>
-                <p class="weather name" id="weatherName"></p>
+            <div class="block sunrise">
+                <img src="icons/sunrise.svg" alt="sunrise">
+                <p class="sunrise">восход</p>
+                <time id="sunrise"></time>
             </div>
-            <div class="block humidity">
-                <p class="humidity" id="humidity"></p>
-                <p class="humidity text">влажность</p>
+            <div class="block sunset">
+                <img src="icons/sunset.svg" alt="sunrise">
+                <p class="sunset">закат</p>
+                <time id="sunset"></time>
             </div>
         </div>
     </div>
@@ -32,5 +31,6 @@
         <a href="./sun.html"><button>3</button></a>
     </div>
 <script src="index.js"></script>
+<script src="sun.js"></script>
 </body>
 </html>
