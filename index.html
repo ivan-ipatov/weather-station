@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Погодная станция</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="./font/Golos-Text/Golos-Text_Medium.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="blocks">
+        <div class="block time">
+            <p class="time" id="time"></p>
+            <p class="data" id="date"></p>
+        </div>
+        <div class="blocks down">
+            <div class="block weather">
+                <div class="weather temperature">
+                    <img alt="Облако" src="icons/Облако.svg">
+                    <p class="temperature celsius" id="temperature"></p>
+                </div>
+                <p class="weather name" id="weatherName"></p>
+            </div>
+            <div class="block humidity">
+                <p class="humidity" id="humidity"></p>
+                <p class="humidity text">влажность</p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <a href="./index.html"><button>1</button></a>
+        <a href="./weather.html"><button>2</button></a>
+        <a href="./sunset.html"><button>3</button></a>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>

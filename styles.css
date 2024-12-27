@@ -1,0 +1,118 @@
+
+:root {
+    --dark-bg: #131313;
+    --dark-text: #C5C5C5;
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--dark-text);
+    font-family: 'GolosTextWebMedium', serif;
+    line-height: 89%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.blocks {
+    align-items: center;
+    background-color: var(--dark-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 15px 117px;
+    height: 320px;
+    justify-content: start;
+    padding: 21px 0;
+    width: 240px;
+}
+
+.block.time {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+#time {
+    font-size: 84px;
+    letter-spacing: -3px;
+}
+
+#date {
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+
+.weather .temperature > img {
+    width: 40px;
+}
+
+.weather .temperature {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.block .weather {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#temperature {
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
+#weatherName {
+    font-size: 20px;
+    letter-spacing: -1px;
+
+}
+#humidity {
+    font-size: 40px;
+    letter-spacing: -1px;
+    height: 40px;
+
+}
+
+.humidity .text {
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.block .humidity {
+    display: flex;
+    align-items: center;
+}
+
+.blocks .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 4px;
+    align-items: end;
+}
+
+
+.buttons {
+    width: 240px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    gap: 5px;
+}
+
+.buttons > a {
+    width: 100%;
+}
+
+.buttons > a > button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
