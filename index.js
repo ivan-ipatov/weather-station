@@ -55,11 +55,11 @@ randWeather = Math.round((Math.random() * 45) + 1)
 randHumidity = Math.round((Math.random() * 100) + 1)
 minusOrNot = Math.round(Math.random()) === 0 ? '' : '-'
 
-temperature.textContent = minusOrNot + randWeather + '°'
+temperature !== null ? temperature.textContent = minusOrNot + randWeather + '°' : ''
 
 randWeather = Math.floor(Math.random() * 3)
 weatherName.textContent = ['облачно', 'снежно', 'солнечно'][randWeather];
-humidity.textContent = randHumidity + "%"
+humidity !== null ? humidity.textContent = randHumidity + "%" : ''
 
 img.src = ["icons/Облако.svg", "icons/Снег.svg", "icons/Солнце.svg"][randWeather]
 
